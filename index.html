@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Júlio César - Frontend - Backend</title>
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <link rel="icon" type="image/gif" href="assets/images/icon.gif">
+
+</head>
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <a href="/" class="logo">JulioFS.</a>
+
+        <div class='bx bx-menu' id="menu-icon"></div>
+
+        <nav class="navbar">
+            <a href="/" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Júlio César</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Frontend Developer | Backend | Turning ideas into perfect, visually stunning web solutions.</p>
+            <div class="social-media">
+                <a href="https://github.com/Juliofranca/"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/julio-cesar-d-b5a475120/"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="https://www.juliofs.com/meucv" class="btn">Open CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="assets/images/home.png" alt="">
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/images/about.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer!</h3>
+            <p>Hi, my name is Júlio César. I have a degree in Systems Analysis and Development from UNINTER and I am currently taking a postgraduate degree in Fullstack Development from PUCRS.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="heading">Work <span>Experience</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Developer</h3>
+                <p>HTML5, CSS3</p>
+                <p>JavaScript, React.JS</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxs-paint'></i>
+                <h3>Graphic Design</h3>
+                <p>UX Designer</p>
+                <p>UI Designer</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-code'></i>
+                <h3>Backend Developer</h3>
+                <p>Node.JS</p>
+                <p>Express.JS</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="assets/images/portfolio1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>My Portfolio</h4>
+                    <p>This Portfolio was developed to showcase my projects, this will be the gateway to the job market.</p>
+                    <a href="https://www.juliofs.com"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="assets/images/portfolio2.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Registration system</h4>
+                    <p>Project under development.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="assets/images/portfolio3.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Empty</h4>
+                    <p>Space reserved for new projects.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="assets/images/portfolio4.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Empty</h4>
+                    <p>Space reserved for new projects.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="assets/images/portfolio5.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Empty</h4>
+                    <p>Space reserved for new projects.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="assets/images/portfolio6.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Empty</h4>
+                    <p>Space reserved for new projects.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+       <form method="post" id="form_contact">
+            <div class="input-box">
+                <input type="text" name="fullname" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
+            </div>
+            <div class="input-box">
+                <input type="number" name="mobile" placeholder="Mobile Number" required>
+                <input type="text" name="subject" placeholder="Email Subject" required>
+            </div>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <h1 id="resposta"></h1>
+            <br>
+            <input type="button" value="Send Message" class="btn" onclick="enviarEmail()">
+            
+        </form>
+
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>© 2024 Time To Program, Júlio César.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- custom js -->
+    <script src="assets/js/script.js"></script>
+    
+    <script>
+ 
+    	function enviarEmail() {
+			var form_avaliacao = document.getElementById('form_contact');
+			var fullname = form_avaliacao.fullname.value;
+			var email = form_avaliacao.email.value;
+			var mobile = form_avaliacao.mobile.value;
+			var subject = form_avaliacao.subject.value;
+			var message = form_avaliacao.message.value;
+			
+			// Expressão regular para validação de email
+            var regexEmail = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+			
+			 // Check if any field is empty
+            if (!fullname || !email || !mobile || !subject || !message) {
+                var resposta = document.getElementById('resposta');
+                resposta.textContent = 'All fields are mandatory!';
+                resposta.style.color = 'red';
+            }else if (!regexEmail.test(email)) { // Verifica se o email é válido
+                var resposta = document.getElementById('resposta');
+                resposta.textContent = 'Please enter a valid email address.';
+                resposta.style.color = 'red';
+            }  else {
+                // Here you can proceed with form submission or AJAX request
+                console.log('All fields have been filled in.');
+
+			const formData = new FormData();
+			formData.append('fullname', fullname);
+			formData.append('email', email);
+			formData.append('mobile', mobile);
+			formData.append('subject', subject);
+			formData.append('message', message);
+
+
+			fetch('assets/php/service_email.php', {
+					method: 'POST',
+					body: formData
+				})
+				.then(response => response.text())
+				.then(data => {
+                    var resposta = document.getElementById('resposta');
+					var json_data = JSON.parse(data);
+
+
+					if (json_data.status == true) {
+						// append text in modalMessageLabel
+						resposta.innerHTML = json_data.message;
+                        
+                        // Reset o formulário
+                        form_avaliacao.fullname.value = "";
+                        form_avaliacao.email.value = "";
+                        form_avaliacao.mobile.value = "";
+                        form_avaliacao.subject.value = "";
+                        form_avaliacao.message.value = "";
+                        resposta.style.color = '#0ef';
+					} else {
+						resposta.innerHTML = json_data.message;
+						resposta.style.color = 'red';
+					}
+
+
+				})
+				.catch(error => {
+				    var resposta = document.getElementById('resposta');
+				    resposta.innerHTML = error.message;
+					console.error('Error:', error);
+					resposta.style.color = 'red';
+				});
+            }
+
+		}
+    </script>
+</body>
+
+</html>
